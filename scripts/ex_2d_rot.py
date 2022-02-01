@@ -11,6 +11,6 @@ if __name__ == '__main__':
 	# update the output format
 	np.set_printoptions(precision = 2, suppress = True)
 	print(rbm.rot_2d(theta))
-
-	
+	print(np.linalg.det(rbm.rot_2d(theta)))
+	print(rbm.rot_x(theta))
 	
